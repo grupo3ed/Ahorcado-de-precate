@@ -57,7 +57,7 @@ public class ahorcado {
  
                 System.out.print("__" + respuesta[i] + "___  ");
             }
-            System.out.println("YOU WIN :)");
+            System.out.println("Has ganado :)");
              
             s.close();}
     }
@@ -76,7 +76,6 @@ public class ahorcado {
             case 5:
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
@@ -91,12 +90,10 @@ public class ahorcado {
             case 4:
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
                 System.out.println(" |                  -------");
-                System.out.println(" |                     |   ");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                     |   ");
                 System.out.println(" |                     |   ");
@@ -111,7 +108,6 @@ public class ahorcado {
             case 3:
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
@@ -120,7 +116,6 @@ public class ahorcado {
                 System.out.println(" |                   / |   ");
                 System.out.println(" |                 /   |   ");
                 System.out.println(" |                /    |   ");
-                System.out.println(" |                     |   ");
                 for (int j = 0; j < 5; j++) {
                     System.out.println(" |");
  
@@ -131,7 +126,6 @@ public class ahorcado {
             case 2:
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
@@ -140,7 +134,6 @@ public class ahorcado {
                 System.out.println(" |                   / | \\ ");
                 System.out.println(" |                  /  |   \\ ");
                 System.out.println(" |                 /   |     \\ ");
-                System.out.println(" |                     |   ");
                 for (int j = 0; j < 5; j++) {
                     System.out.println(" |");
  
@@ -151,7 +144,6 @@ public class ahorcado {
             case 1:
                 System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
@@ -160,7 +152,6 @@ public class ahorcado {
                 System.out.println(" |                   / | \\ ");
                 System.out.println(" |                  /  |   \\ ");
                 System.out.println(" |                 /   |     \\ ");
-                System.out.println(" |                     |   ");
                 System.out.println(" |                    /  ");
                 System.out.println(" |                   /      ");
                 System.out.println(" |                  /       ");
@@ -174,7 +165,6 @@ public class ahorcado {
             case 0:
                System.out.println(" ---------------------");
                 System.out.println(" |                     |");
-                System.out.println(" |                     |");
                 System.out.println(" |                  -------");
                 System.out.println(" |                 | X   X |");
                 System.out.println(" |                 |   o   |");
@@ -183,7 +173,6 @@ public class ahorcado {
                 System.out.println(" |                   / | \\ ");
                 System.out.println(" |                  /  |   \\ ");
                 System.out.println(" |                 /   |     \\ ");
-                System.out.println(" |                     |   ");
                 System.out.println(" |                    / \\");
                 System.out.println(" |                   /   \\  ");
                 System.out.println(" |                  /     \\ ");
@@ -192,7 +181,7 @@ public class ahorcado {
  
                 }
                 System.out.println("__________");
-                System.out.println("GAME OVER");
+                System.out.println("Buen intento");
                 break;
         }
     }
